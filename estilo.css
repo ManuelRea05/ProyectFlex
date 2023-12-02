@@ -22,7 +22,20 @@ body{
     z-index: 99;
     padding: 0 20px;
 }
-.contenedor-header header{
+
+.titulo-con-logo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-con-logo span {
+    margin-right: 8px; /* Espacio entre el texto y el logo */
+}
+.logo img {
+    height: 43px;
+}
+
+.contenedor-header header {
     max-width: 1100px;
     margin: auto;
     width: 100%;
