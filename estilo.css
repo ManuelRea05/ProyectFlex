@@ -576,7 +576,7 @@ footer .info a{
 /* *********** */
 /* RESPONSIVE */
 /* *********** */
-@media screen and (max-width:980px) {
+@media(max-width:768px) {
     header nav{
         position: initial;
         display: none;
@@ -588,6 +588,8 @@ footer .info a{
     .nav-responsive{
         display: block;
     }
+
+    /* Menu  */
     nav.responsive{
         display: flex;
         flex-direction: column;
@@ -609,24 +611,27 @@ footer .info a{
     .inicio .opciones{
         display: none;
     }
+
     .nosotros .fila{
         display: block;
     }
     .nosotros .fila .col{
         width: 100%;
-        margin: auto;
     }
     .nosotros .fila .col img{
         max-width: 200px;
-        display: block;
-        margin: auto;
     }
+
     .servicios .contenido-seccion .fila{
         display: block;
     }
     .servicios .contenido-seccion .fila .col{
        width: 100%;
     }
+    .servicios .fila .col img{
+        max-width: 200px;
+    }
+
     .comodidades .fila{
         display: block;
     }
