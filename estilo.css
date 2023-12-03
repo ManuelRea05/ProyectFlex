@@ -161,12 +161,6 @@ body{
     display: flex;
     align-items:center
 }
-.nosotros .fila .col .contenedor-titulo .numero{
-    color: #F1C93B;
-    font-weight: bold;
-    display: block;
-    font-size: 5rem;
-}
 .nosotros .fila .col .contenedor-titulo .info{
     margin-left: 30px;
 }
@@ -179,6 +173,7 @@ body{
 .nosotros .fila .col p{
    margin-bottom: 10px;
    line-height: 28px;
+   margin-left: 30px;
 }
 .nosotros .fila .col .p-especial{
     font-weight: bold;
@@ -261,6 +256,7 @@ body{
 .servicios .fila .col p{
    margin-bottom: 10px;
    line-height: 28px;
+   margin-left: 30px;
 }
 .servicios .fila .col .p-especial{
     font-weight: bold;
@@ -336,7 +332,7 @@ body{
     font-size: 5rem;
 }
 .comodidades .fila .col .contenedor-titulo .info{
-    margin-left: 30px;
+    margin-left: 0;
 }
 .comodidades .fila .col .contenedor-titulo .info .frase{
     color: black;
@@ -347,6 +343,7 @@ body{
 .comodidades .fila .col p{
    margin-bottom: 10px;
    line-height: 28px;
+   margin-left: 0;
 }
 .comodidades .fila .col .p-especial{
     font-weight: bold;
