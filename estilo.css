@@ -286,6 +286,7 @@ body{
     padding: 10px;
     border: 1px solid #dde1e9;
     box-sizing: border-box;
+    width: 33.33%;
 }
 
 .servicios .info-servicios table td i {
@@ -679,5 +680,10 @@ footer .info a{
     }
     footer .info p{
         margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .servicios .info-servicios table td {
+        min-width: 100%; /* Cambia a ancho completo */
     }
 }
