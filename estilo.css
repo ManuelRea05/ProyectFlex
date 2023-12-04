@@ -628,6 +628,9 @@ footer .info a{
     .servicios .fila .col img{
         max-width: 200px;
     }
+    .servicios .info-servicios{
+        display: block;
+    }
 
     .comodidades .fila{
         display: block;
