@@ -29,7 +29,7 @@ body{
 }
 
 .titulo-con-logo span {
-    margin-right: 8px; /* Espacio entre el texto y el logo */
+    margin-right: 6px; /* Espacio entre el texto y el logo */
 }
 .logo img {
     height: 43px;
