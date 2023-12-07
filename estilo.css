@@ -622,6 +622,9 @@ footer .info a{
     .nosotros .fila .col img{
         max-width: 200px;
     }
+    .nosotros .fila .col .contenedor-titulo .info h2{
+        font-size: 2.5rem;
+    }
 
     .servicios .contenido-seccion .fila{
         display: block;
@@ -632,11 +635,11 @@ footer .info a{
     .servicios .fila .col img{
         max-width: 200px;
     }
-    /* .servicios .info-servicios{
-        display: block;
-    } */
     .servicios .info-servicios table td {
         width: 100%; /* Cambia a una sola columna */
+    }
+    .servicios .fila .col .contenedor-titulo .info h2{
+        font-size: 2.5rem;
     }
 
     .comodidades .fila{
@@ -647,6 +650,13 @@ footer .info a{
     }
     .comodidades .fila .col img{
         max-width: 200px;
+    }
+    .comodidades .fila .col .contenedor-titulo .info h2{
+        font-size: 2.5rem;
+    }
+
+    .galeria .contenedor-titulo .info h2 {
+        font-size: 2.5rem;
     }
 
     .equipo .fila{
@@ -663,6 +673,10 @@ footer .info a{
         max-width: 250px;
         margin: auto;
     }
+    .equipo .fila .col .contenedor-titulo .info h2{
+        font-size: 2.5rem;
+    }
+
     .contacto .fila{
         display: block;
     }
@@ -676,6 +690,10 @@ footer .info a{
     .contacto .fila-datos .col{
         margin-bottom: 20px;
     }
+    .contacto .contenedor-titulo .info h2 {
+        font-size: 2.5rem;
+    }
+
     footer .info{
         display: block;
         text-align: center;
