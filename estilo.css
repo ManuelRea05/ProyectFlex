@@ -166,10 +166,13 @@ body{
     margin-left: 30px;
 }
 .nosotros .fila .col .contenedor-titulo .info .frase{
-    color: black;
+    color:#0D9276;;
 }
 .nosotros .fila .col .contenedor-titulo .info h2{
     font-size: 3rem;
+}
+.txtAzul{
+    color: #0D9276;
 }
 .nosotros .fila .col p{
    margin-bottom: 10px;
@@ -339,7 +342,7 @@ body{
     margin-left: 0;
 }
 .comodidades .fila .col .contenedor-titulo .info .frase{
-    color: black;
+    color: #0D9276;
 }
 .comodidades .fila .col .contenedor-titulo .info h2{
     font-size: 3rem;
@@ -358,7 +361,7 @@ body{
 }
 .comodidades .fila .col li span{
     font-weight: bold;
-    color: #F1C93B;
+    color: #0D9276;
 }
 /* ********** */
 /* GALERIA */
@@ -427,7 +430,7 @@ body{
     margin-left: 30px;
 }
 .equipo .contenedor-titulo .info .frase{
-    color: black;
+    color: #0D9276;
 }
 .equipo .contenedor-titulo .info h2{
     font-size: 3rem;
