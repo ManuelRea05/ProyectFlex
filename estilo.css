@@ -383,12 +383,6 @@ body{
     align-items: center;
     margin-bottom: 40px;
 }
-.galeria  .contenedor-titulo .numero{
-    color: #F1C93B;
-    font-weight: bold;
-    display: block;
-    font-size: 5rem;
-}
 .galeria .contenedor-titulo .info{
     margin-left: 0;
 }
@@ -398,13 +392,24 @@ body{
 .galeria .contenedor-titulo .info h2{
     font-size: 3rem;
 }
-.galeria .fila{
-    display: flex;
-}
-.galeria .fila .col img{
+.container{
     width: 100%;
-    display: block;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas */
+    grid-template-rows: repeat(2, 1fr); /* Cambia a 2 filas */
+}
+.gallery img {
+    width: 100%;
+    height: 100%; /* Ajusta la altura para mantener la relación de aspecto */
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el espacio disponible */
+}
+
 /* *********** */
 /* ENTRENADORES */
 /* *********** */
@@ -542,6 +547,10 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.contacto button:hover{
+    background-color: #333;
+}
+
 .contacto .fila-datos{
     display: flex;
     justify-content: space-around;
@@ -669,6 +678,10 @@ footer .info a{
 
     .galeria .contenedor-titulo .info h2 {
         font-size: 2.5rem;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
     }
 
     .equipo .fila{

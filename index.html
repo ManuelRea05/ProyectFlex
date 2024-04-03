@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="stylesheet" href="estilo.css">
     <title>FLEX GYM</title>
 </head>
@@ -197,26 +198,26 @@
                     <h2>GALERIA</h2>
                 </div>
             </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="img/f1.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f2.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f3.jpg" alt="">
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="img/f4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f5.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f6.jpg" alt="">
+            <div class="container">
+                <div class="gallery" >
+                    <a href="img/f1.jpg" data-lightbox="models" data-title="Imagen1">
+                        <img src="img/f1.jpg" alt="">
+                    </a>
+                    <a href="img/f2.jpg" data-lightbox="models" data-title="Imagen2">
+                        <img src="img/f2.jpg" alt="">
+                    </a>
+                    <a href="img/f3.jpg" data-lightbox="models" data-title="Imagen3">
+                        <img src="img/f3.jpg" alt="">
+                    </a>
+                    <a href="img/f4.jpg" data-lightbox="models" data-title="Imagen4">
+                        <img src="img/f4.jpg" alt="">
+                    </a>
+                    <a href="img/f5.jpg" data-lightbox="models" data-title="Imagen5">
+                        <img src="img/f5.jpg" alt="">
+                    </a>
+                    <a href="img/f6.jpg" data-lightbox="models" data-title="Imagen6">
+                        <img src="img/f6.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -313,8 +314,7 @@
                     </div>
                 </div>
         </div>
-
-    </section>
+    </section>    
 
     <footer>
         <div class="info">
@@ -335,6 +335,8 @@
             </div>
         </div>
     </footer>
+
     <script src="app.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
