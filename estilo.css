@@ -631,13 +631,13 @@ footer .info a{
     }
     .nosotros .fila .col img{
         max-width: 250px;
-        padding: 20px 20px;
+        padding-bottom: 30px;
     }
     .nosotros .fila .col .contenedor-titulo .info h2{
         font-size: 2.5rem;
     }
     .nosotros .fila .col p{
-        padding-bottom: 100px;
+        padding-bottom: 80px;
     }
 
     .servicios .contenido-seccion .fila{
