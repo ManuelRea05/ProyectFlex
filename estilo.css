@@ -548,6 +548,11 @@ body{
 .contacto button:hover{
     background-color: #333;
 }
+.contacto i{
+    color: #F1C93B;
+    display: inline-block;
+    margin-right: 10px;
+}
 
 .contacto .fila-datos{
     display: flex;
@@ -555,12 +560,29 @@ body{
     margin-top: 100px;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 20px;
 }
-.contacto i{
-    color: #F1C93B;
-    display: inline-block;
-    margin-right: 10px;
+.contacto .fila-datos col{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: space-around;
 }
+.direccion {
+    margin-top: 20px; 
+    text-align: center; 
+    font-size: 18px;
+}
+.col i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.mapa {
+    text-align: center; /* Centra el mapa horizontalmente */
+    padding-top: 20px; /* Espacio superior al mapa */
+}
+
+
 /* *********** */
 /* FOOTER */
 /* *********** */
@@ -719,6 +741,10 @@ footer .info a{
     }
     .contacto .contenedor-titulo .info h2 {
         font-size: 2.5rem;
+    }
+    .mapa iframe{
+        width: 90%; 
+        height: 300px; 
     }
 
     footer .info{
