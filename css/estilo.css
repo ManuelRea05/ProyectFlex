@@ -641,6 +641,9 @@ footer .info a{
         margin: 10px auto;
         font-size: 30px;
     }
+}
+
+    @media(max-width:768px) {
     .inicio .opciones{
         display: none;
     }
