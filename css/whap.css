@@ -5,8 +5,8 @@
     line-height: 62px;
     bottom:30px;
     right:30px;
-    background:#25d366;
-    color:#333;
+    background:#F1C93B;
+    color: white;
     border-radius:50px;
     text-align:center;
     font-size:35px;
@@ -15,7 +15,7 @@
     transition: all 300ms ease;
 }
 .btn-wsp:hover{
-    background: white;
+    background: #25d366;
 }
 @media only screen and (min-width:320px) and (max-width:768px){
     .btn-wsp{

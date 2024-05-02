@@ -11,6 +11,13 @@ html{
 body{
     background-color: #dde1e9;
 }
+
+:root {
+    --amarillo: #F1C93B;
+    --verde: #25d366;
+    
+}
+
 /* *********** */
 /* ENCABEZADO - MENU */
 /* *********** */
