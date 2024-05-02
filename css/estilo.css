@@ -30,6 +30,10 @@ body{
     padding: 0 20px;
 }
 
+.contenedor-header a{
+    text-decoration: none;
+}
+
 .titulo-con-logo {
     display: flex;
     align-items: center;
@@ -553,7 +557,7 @@ body{
     cursor: pointer;
 }
 .contacto button:hover{
-    background-color: #333;
+    color: black;
 }
 .contacto i{
     color: #F1C93B;

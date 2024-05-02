@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/lightbox.css">
     <link rel="stylesheet" href="./css/whap.css">
     <link rel="stylesheet" href="./css/estilo.css">
@@ -19,12 +20,15 @@
     <!-- MENU -->
     <div class="contenedor-header">
         <header>
-            <h1 class="titulo-con-logo">
-                <span>FLEX <span class="txtRojo">GYM</span></span>
-                <div class="logo">
-                    <img src="img/logoP.png" alt="">
-                </div>
-            </h1>
+            <a href="#inicio">
+                <h1 class="titulo-con-logo">
+                    <span style="color: white;">FLEX <span class="txtRojo">GYM</span></span>
+                    <div class="logo">
+                        <img src="img/logoP.png" alt="">
+                    </div>
+                </h1>
+            </a>
+            
             <nav id="nav">
                 <a href="#inicio" onclick="seleccionar()">inicio</a>
                 <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
@@ -51,7 +55,7 @@
         <div class="contenido-seccion">
             <div class="info">
                 <h2>LO PUEDES <span class="txtRojo">LOGRAR</span></h2>
-                <p>Triunfar es más facil de lo que piensas!</p>
+                <p>Comprometidos con nuestros alumnos!</p>
                 <a href="#nosotros" class="btn-mas">
                     <i class="fa-solid fa-circle-chevron-down"></i>
                 </a>
@@ -82,7 +86,7 @@
     <!-- SECCION NOSOTROS -->
     <section id="nosotros" class="nosotros">
         <div class="contenido-seccion">
-            <div class="fila">
+            <div class="fila" data-aos="fade-up">
                 <div class="col">
                     <img src="img/nosotros.png" alt="">
                 </div>
@@ -93,7 +97,7 @@
                             <h2>NOSOTROS</h2>
                         </div>
                     </div>
-                    <p class="p-especial">Gimnasio <span class="txtAzul">FLEX GYM,</span> nacio en 2013 en nuestra ciudad y tiene como misión proveer un buen servicio que nos identifique por calidad y confianza con el objetivo de generar valor a la vida a través de la actividad física y buenos momentos en nuestros socios, generando vínculos y comodidad y de esta manera hacer crecer consistentemente la confiabilidad de nuestra marca.</p>
+                    <p class="p-especial">Gimnasio <span class="txtAzul">FLEX GYM,</span> nació en 2013 en nuestra ciudad y tiene como misión proveer un buen servicio que nos identifique por calidad y confianza con el objetivo de generar valor a la vida a través de la actividad física y buenos momentos en nuestros socios, generando vínculos y comodidad y de esta manera hacer crecer consistentemente la confiabilidad de nuestra marca.</p>
                 </div>
             </div>
         </div>
@@ -102,7 +106,7 @@
     <!-- SECCION SERVICIOS -->
     <section class="servicios" id="servicios">
         <div class="contenido-seccion">
-            <div class="fila">
+            <div class="fila" data-aos="fade-up">
                 <div class="col">
                     <div class="contenedor-titulo">
                         <div class="info">
@@ -118,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="info-servicios"> 
+        <div class="info-servicios" data-aos="fade-up"> 
             <h2 class="titulo-servicios">
                 ¿Por qué
                 <span class="txtAmar">elegirnos?</span>
@@ -164,7 +168,7 @@
 
     <!-- SECCION COMODIDADES -->
    <section id="comodidades" class="comodidades">
-        <div class="fila">
+        <div class="fila" data-aos="fade-up">
             <div class="col">
                 <img src="img/nosotros.png" alt="">
             </div>
@@ -187,7 +191,7 @@
 
     <!-- SECCION GALERIA -->
     <section class="galeria" id="galeria">
-        <div class="contenido-seccion">
+        <div class="contenido-seccion" data-aos="fade-up">
             <div class="contenedor-titulo">
                 <div class="info">
                     <span class="frase">LA MEJOR EXPERIENCIA</span>
@@ -221,7 +225,7 @@
     
     <!-- SECCION EQUIPO -->
     <section class="equipo" id="equipo">
-        <div class="contenido-seccion">
+        <div class="contenido-seccion" data-aos="fade-up">
             <div class="contenedor-titulo">
                 <div class="info">
                     <span class="frase">LA MEJOR EXPERIENCIA</span>
@@ -232,39 +236,39 @@
                 <div class="col">
                     <img src="img/e1.png" alt="">
                     <div class="info">
-                        <h2>MARCOS</h2>
-                        <p>Fitness - Pilates - Yoga</p>
+                        <h2>PAOLO</h2>
+                        <p>Dueño - Fitness</p>
                         <a href="#">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                         <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col">
                     <img src="img/e2.png" alt="">
                     <div class="info">
-                        <h2>PATRICIA</h2>
-                        <p>Fitness - Pilates - Yoga</p>
+                        <h2>JACKY</h2>
+                        <p>Fitness</p>
                         <a href="#">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                         <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col">
                     <img src="img/e3.png" alt="">
                     <div class="info">
-                        <h2>JUAN</h2>
-                        <p>Fitness - Pilates - Yoga</p>
+                        <h2>JUANCE</h2>
+                        <p>Fitness</p>
                         <a href="#">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                         <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
                 </div>
@@ -334,5 +338,9 @@
 
     <script src="./js/app.js"></script>
     <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
